@@ -1,0 +1,6 @@
+<ruleset name="Manta.com">
+  <target host="manta.com" />
+  <target host="www.manta.com" />
+
+  <rule from="^http://(www\.)?manta\.com/" to="https://www.manta.com/" />
+</ruleset>
